@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Home';
@@ -9,6 +9,7 @@ import Events from './components/Events';
 import './App.css';
 
 const App = () => {
+  
   return (
     <Router>
       <Header />
@@ -18,6 +19,8 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/departments" element={<Departments />} />
           <Route path="/events" element={<Events />} />
+          {/* Handle unknown routes */}
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </main>
       <Footer />

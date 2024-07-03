@@ -45,7 +45,7 @@ const Events = () => {
     <div className="events-container">
       <h1>Events</h1>
       <div className="event-card">
-        <img src="src/assets/img/music-fest.jpg" alt={currentEvent.title} className="event-image" />
+        <img src="	https://kumaravel655.github.io/college/music-fest.jpg" alt={currentEvent.title} className="event-image" />
         <h2>{currentEvent.title}</h2>
         <p>{currentEvent.description}</p>
       </div>
