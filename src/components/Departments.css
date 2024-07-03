@@ -1,0 +1,66 @@
+.departments-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .departments-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .departments-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .department-item {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+  .departments-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .departments-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .departments-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .departments-table th,
+  .departments-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .departments-table th {
+    background-color: #f2f2f2;
+    font-size: 1.2rem;
+  }
+  
+  .departments-table td {
+    font-size: 1rem;
+  }
+  
+  .departments-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .departments-table tr:hover {
+    background-color: #ddd;
+  }
+  
